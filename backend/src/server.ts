@@ -3,7 +3,7 @@ import path from 'path';
 import dotenv from 'dotenv';
 import cors from 'cors';
 
-import main from './routes/api';
+import main from './routes/index';
 
 dotenv.config();
 
